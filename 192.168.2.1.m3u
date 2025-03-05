@@ -20,6 +20,7 @@ http://kjsp.aikan.miguvideo.com/PLTV/88888888/224/3221236430/1.m3u8
 #EXTINF:-1 tvg-name="migu",咪咕8K6
 http://kjsp.aikan.miguvideo.com/PLTV/88888888/224/3221236432/1.m3u8
 
+
 #EXTINF:-1 tvg-name="CCTV1",CCTV-1 综合[高清]
 http://192.168.2.1:23234/rtp/239.3.1.129:8008
 #EXTINF:-1 tvg-name="CCTV2",CCTV-2 财经[高清]
@@ -56,12 +57,14 @@ http://192.168.2.1:23234/rtp/239.3.1.124:8128
 http://192.168.2.1:23234/rtp/239.3.1.65:8132
 #EXTINF:-1 tvg-name="CCTV15",CCTV-15 音乐[高清]
 http://192.168.2.1:23234/rtp/239.3.1.153:8136
-#EXTINF:-1 tvg-name="CCTV16",CCTV-16 奥林匹克[超清HDR]
-http://192.168.2.1:23234/rtp/239.3.1.183:8001
+# #EXTINF:-1 tvg-name="CCTV16",CCTV-16 奥林匹克[超清HDR]
+# http://192.168.2.1:23234/rtp/239.3.1.183:8001
 #EXTINF:-1 tvg-name="CCTV16",CCTV-16 奥林匹克[高清]
 http://192.168.2.1:23234/rtp/239.3.1.184:8001
 #EXTINF:-1 tvg-name="CCTV17",CCTV-17 农业农村[高清]
 http://192.168.2.1:23234/rtp/239.3.1.151:8144
+#EXTINF:-1 tvg-name="CCTV4K",CCTV-4K 超高清[超清HDR]
+http://192.168.2.1:23234/rtp/239.3.1.245:2000
 
 #EXTINF:-1 tvg-name="北京卫视",BRTV北京卫视[高清]
 http://192.168.2.1:23234/rtp/239.3.1.241:8000
@@ -75,27 +78,29 @@ http://192.168.2.1:23234/rtp/239.3.1.242:8000
 http://192.168.2.1:23234/rtp/239.3.1.116:8000
 #EXTINF:-1 tvg-name="BTV生活",BRTV生活[高清]
 http://192.168.2.1:23234/rtp/239.3.1.117:8000
-#EXTINF:-1 tvg-name="BTV青年",BRTV青年[高清]
+# #EXTINF:-1 tvg-name="BTV青年",BRTV青年[高清]
 http://192.168.2.1:23234/rtp/239.3.1.118:8000
 #EXTINF:-1 tvg-name="BTV科教",BRTV纪实科教[高清]
 http://192.168.2.1:23234/rtp/239.3.1.115:8000
 #EXTINF:-1 tvg-name="卡酷动画",BRTV卡酷少儿[高清]
 http://192.168.2.1:23234/rtp/239.3.1.189:8000
-#EXTINF:-1 tvg-name="北京纪实",BRTV冬奥纪实[高清]
-http://192.168.2.1:23234/rtp/239.3.1.243:8000
-#EXTINF:-1 tvg-name="北京纪实",BRTV冬奥纪实[超清HDR]
-http://192.168.2.1:23234/rtp/239.3.1.120:8000
-#EXTINF:-1 tvg-name="北京纪实",BRTV冬奥纪实[超清]
-http://192.168.2.1:23234/rtp/239.3.1.121:8000
-#EXTINF:-1 tvg-name="BTV体育",BRTV体育休闲[高清]
-http://192.168.2.1:23234/rtp/239.3.1.243:8000
+#EXTINF:-1 tvg-name="BTV体育",BRTV体育休闲[超清HDR]
+http://192.168.2.1:23234/rtp/239.3.1.22:8001
 #EXTINF:-1 tvg-name="该频道节目单尚无",BRTV国际频道[高清]
 http://192.168.2.1:23234/rtp/239.3.1.235:8000
 
+# #EXTINF:-1 tvg-name="凤凰中文",凤凰卫视中文[非官方]
+# https://pull-l3-cny.douyincdn.com/live/YesLiveTV-2217df8a-46d8-4fa8-b040-5abdd96d91ce.flv
+# #EXTINF:-1 tvg-name="凤凰资讯",凤凰卫视资讯[非官方]
+# https://pull-l3-cny.douyincdn.com/live/YesLiveTV-63134406-69d7-436b-986a-9bd696d4e2cb.flv
+#EXTINF:-1 tvg-name="爱上4K",爱上4K[超清]
+http://192.168.2.1:23234/rtp/239.3.1.236:2000
+#EXTINF:-1 tvg-name="该频道节目单尚无",4K超清[超清]
+http://192.168.2.1:23234/rtp/239.3.1.249:8001
 #EXTINF:-1 tvg-name="该频道节目单尚无",淘电影[高清]
 http://192.168.2.1:23234/rtp/239.3.1.250:8001
-#EXTINF:-1 tvg-name="该频道节目单尚无",每日影院[高清]
-http://192.168.2.1:23234/rtp/239.3.1.111:8001
+# #EXTINF:-1 tvg-name="该频道节目单尚无",每日影院[高清]
+# http://192.168.2.1:23234/rtp/239.3.1.111:8001
 #EXTINF:-1 tvg-name="该频道节目单尚无",星影
 http://192.168.2.1:23234/rtp/239.3.1.94:4120
 #EXTINF:-1 tvg-name="该频道节目单尚无",动作影院
@@ -110,8 +115,8 @@ http://192.168.2.1:23234/rtp/239.3.1.93:4120
 http://192.168.2.1:23234/rtp/239.3.1.74:4120
 #EXTINF:-1 tvg-name="IPTV经典电影",经典电影
 http://192.168.2.1:23234/rtp/239.3.1.195:9024
-#EXTINF:-1 tvg-name="上海纪实",纪实人文[高清]
-http://192.168.2.1:23234/rtp/239.3.1.212:8060
+# #EXTINF:-1 tvg-name="上海纪实",纪实人文[高清]
+# http://192.168.2.1:23234/rtp/239.3.1.212:8060
 #EXTINF:-1 tvg-name="金鹰纪实",金鹰纪实[高清]
 http://192.168.2.1:23234/rtp/239.3.1.58:8156
 #EXTINF:-1 tvg-name="全纪实",乐游[高清]
@@ -184,8 +189,8 @@ http://192.168.2.1:23234/rtp/239.3.1.144:4120
 http://192.168.2.1:23234/rtp/239.3.1.143:4120
 #EXTINF:-1 tvg-name="四川卫视",四川卫视
 http://192.168.2.1:23234/rtp/239.3.1.29:8288
-#EXTINF:-1 tvg-name="南方卫视",大湾区卫视
-http://192.168.2.1:23234/rtp/239.3.1.161:8001
+# #EXTINF:-1 tvg-name="南方卫视",大湾区卫视
+# http://192.168.2.1:23234/rtp/239.3.1.161:8001
 #EXTINF:-1 tvg-name="宁夏卫视",宁夏卫视
 http://192.168.2.1:23234/rtp/239.3.1.46:8124
 #EXTINF:-1 tvg-name="山西卫视",山西卫视
